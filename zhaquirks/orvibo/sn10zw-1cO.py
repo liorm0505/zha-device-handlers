@@ -75,7 +75,7 @@ class MotionOrvibo(OrviboCustomDevice):
         super().__init__(*args, **kwargs)
 
     signature = {
-        MODELS_INFO: [(ORVIBO, "895a2d80097f4ae2b2d40500d5e03dcc")],
+        MODELS_INFO: [(ORVIBO, "585fdfb8c2304119a2432e9845cf2623")],
         ENDPOINTS: {
             1: {
                 PROFILE_ID: zha.PROFILE_ID,
